@@ -23,7 +23,7 @@ const ExerciseCard = (props) => {
             <Card.Text>
               {about}
             </Card.Text>
-            <Button onClick={()=>props.handleAddToList(props.data)} className="btn btn-success col-12" variant="primary">Select</Button>
+            <Button onClick={()=>props.handleAddToList(props.data)} className="btn btn-success col-12" variant="primary">{"Select"}</Button>
             {/* <Button onClick={handleAddToList}  className="btn btn-success col-12" variant="primary">Select</Button> */}
           </Card.Body>
         </Card>
